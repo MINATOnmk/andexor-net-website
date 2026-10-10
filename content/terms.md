@@ -47,7 +47,7 @@ We may revise these Terms at any time by posting a revised version on this page 
 
 ## 4. Intellectual Property
 
-All content on the Site, including text, graphics, illustrations, logos, icons, page designs, and software, is owned by Andexor Network, Inc. or its licensors and is protected by United States and international copyright, trademark, and other intellectual property laws. "Andexor," "Andexor Network," and the Andexor logos are trademarks of Andexor Network, Inc. Other names and marks on the Site belong to their respective owners. You may not use our marks without our prior written permission.
+All content on the Site, including text, graphics, illustrations, logos, icons, page designs, and software, is owned by Andexor Network, Inc. or its licensors and is protected by United States and international copyright, trademark, and other intellectual property laws. "Andexor," "Andexor Network," and the Andexor logos are trademarks of Andexor Network, Inc. Other names and marks on the Site belong to their respective owners. You may not use our marks without our prior written permission, including in any way that suggests affiliation with, endorsement by, or sponsorship from Andexor.
 
 We grant you a limited, revocable, non-exclusive, non-transferable license to view the Site and to print or save a reasonable number of pages for your personal or internal business evaluation of our services. All other rights are reserved. Except as this Section or Section 5 allows, you may not copy, republish, redistribute, frame, mirror, scrape, or create derivative works from Site content, or remove any copyright, trademark, watermark, or other proprietary notice from it, without our prior written permission. Unauthorized use ends the license granted here.
 
@@ -56,7 +56,7 @@ We grant you a limited, revocable, non-exclusive, non-transferable license to vi
 You agree not to:
 
 - use the Site for any unlawful purpose or in violation of these Terms;
-- attempt to gain unauthorized access to the Site, its servers, or any connected system, or probe, scan, or test the Site's security, except for good-faith security research that follows our [Security Policy](/security) or that we have authorized in writing;
+- attempt to gain unauthorized access to the Site, its servers, or any connected system, or probe, scan, or test the Site's security, except for good-faith security research that follows our [Security Policy](/security), which is incorporated into these Terms by reference, or that we have authorized in writing;
 - interfere with the Site's operation, including through denial-of-service activity, excessive automated requests, or any attempt to bypass a measure we use to restrict access;
 - copy or extract Site content by automated means, including scraping, except as permitted below;
 - upload or transmit viruses or other malicious code;
@@ -126,11 +126,11 @@ You agree to defend, indemnify, and hold harmless Andexor Network, Inc. and its 
 
 **Governing law.** These Terms and any dispute arising out of or relating to them or the Site are governed by the laws of the State of Georgia, without regard to its conflict-of-laws rules. The Federal Arbitration Act governs the arbitration agreement in this Section. The United Nations Convention on Contracts for the International Sale of Goods does not apply.
 
-**Informal resolution first.** Before starting an arbitration or lawsuit, you agree to send a written description of the dispute to legal@andexor.net that states what happened, when it happened, and what you are asking for, and to give us 30 days to try to resolve it with you informally. We will do the same before starting a claim against you.
+**Informal resolution first.** Before starting an arbitration or lawsuit, you agree to send a written description of the dispute to legal@andexor.net that states what happened, when it happened, and what you are asking for, and to give us 30 days to try to resolve it with you informally. We will do the same before starting a claim against you. The one-year time limit in this Section is paused from the day we receive your written description, or you receive ours, until the 30 days have passed.
 
-**Binding arbitration.** Unless you have opted out under this Section, any dispute that is not resolved informally will be resolved by binding arbitration administered by the American Arbitration Association ("AAA") under its Consumer Arbitration Rules, or its Commercial Arbitration Rules if you are using the Site on behalf of a business, before a single arbitrator. The arbitration will take place in Atlanta, Georgia, or by video or written submissions if the applicable rules allow and either party requests it. The arbitrator may award the same individual relief a court could, and the award may be entered in any court of competent jurisdiction. The AAA rules are available at www.adr.org.
+**Binding arbitration.** Unless you have opted out under this Section, any dispute that is not resolved informally will be resolved by binding arbitration administered by the American Arbitration Association ("AAA") under its Consumer Arbitration Rules, or its Commercial Arbitration Rules if you are using the Site on behalf of a business, before a single arbitrator. The arbitration will take place in Atlanta, Georgia, or by video or written submissions if the applicable rules allow and either party requests it. The arbitrator may award the same individual relief a court could, and the award may be entered in any court of competent jurisdiction. We will not seek our attorneys' fees or costs from you in an arbitration unless the arbitrator finds that your claim was frivolous or brought for an improper purpose. The AAA rules are available at www.adr.org.
 
-**Exceptions.** Either party may bring a qualifying claim in small claims court instead, and either party may seek an injunction or other equitable relief in court to protect its intellectual property or to stop unauthorized access to the Site.
+**Exceptions.** Either party may bring a qualifying claim in small claims court instead, and either party may seek an injunction or other equitable relief in court to protect its intellectual property or to stop unauthorized access to the Site. You agree that a breach of Section 4 or Section 5 would cause us harm that money alone cannot repair, that we may seek an injunction or other equitable relief for it without proving actual damages and without posting a bond or other security, and that you will not oppose that relief on the ground that money would be an adequate remedy.
 
 **NO CLASS ACTIONS; NO JURY.** YOU AND ANDEXOR EACH WAIVE THE RIGHT TO A TRIAL BY JURY AND THE RIGHT TO PARTICIPATE IN A CLASS, COLLECTIVE, OR REPRESENTATIVE ACTION. CLAIMS MAY BE BROUGHT ONLY IN A PARTY'S INDIVIDUAL CAPACITY, AND THE ARBITRATOR MAY NOT CONSOLIDATE CLAIMS OF DIFFERENT PARTIES. If this class action waiver is found unenforceable as to a particular claim, that claim must be brought in court under the Court proceedings paragraph below, and this Section otherwise remains in effect.
 
@@ -142,7 +142,7 @@ You agree to defend, indemnify, and hold harmless Andexor Network, Inc. and its 
 
 ## 15. General Terms
 
-**Entire agreement.** These Terms, together with the Privacy Policy, are the entire agreement between you and Andexor about your use of the Site and supersede any prior agreement about it. They do not alter any Services Agreement or other written agreement between you and Andexor.
+**Entire agreement.** These Terms, together with the Privacy Policy and the Security Policy, are the entire agreement between you and Andexor about your use of the Site and supersede any prior agreement about it. They do not alter any Services Agreement or other written agreement between you and Andexor.
 
 **Severability.** If any provision of these Terms is held invalid or unenforceable, it will be enforced to the greatest extent permitted, and the remaining provisions stay in full force.
 
@@ -150,11 +150,11 @@ You agree to defend, indemnify, and hold harmless Andexor Network, Inc. and its 
 
 **Assignment.** You may not assign or transfer these Terms or any right under them without our prior written consent. We may assign these Terms in connection with a merger, acquisition, or sale of assets, or to an affiliate, without notice to you.
 
-**No third-party beneficiaries.** These Terms do not give any rights to anyone other than you and Andexor, except that the persons indemnified under Section 13 may enforce it.
+**No third-party beneficiaries.** These Terms do not give any rights to anyone other than you and Andexor, except that the persons named in Sections 11, 12, and 13 may enforce those Sections.
 
-**Force majeure.** We are not liable for any failure or delay caused by events beyond our reasonable control, including hosting or network outages, acts of government, labor disputes, natural disasters, or attacks on the Site.
+**Force majeure.** We are not liable for any failure or delay caused by events beyond our reasonable control, including hosting, network, utility, or communications failures, outages at third-party providers, acts of government, war, terrorism, civil unrest, epidemics, labor disputes, natural disasters, or attacks on the Site.
 
-**Electronic communications.** You consent to receive communications from us electronically. Notices we post on the Site or send to the email address you gave us satisfy any legal requirement that a communication be in writing. Notices to us must be sent to legal@andexor.net or to the mailing address in Section 16.
+**Electronic communications.** You consent to receive communications from us electronically. Notices we post on the Site or send to the email address you gave us satisfy any legal requirement that a communication be in writing, and are effective when posted or sent. Notices to us must be sent to legal@andexor.net or to the mailing address in Section 16, and are effective when we receive them.
 
 **Site availability and international use.** We may modify, suspend, or discontinue all or part of the Site at any time without notice and without liability to you. We operate the Site from the United States and make no representation that it is appropriate or available elsewhere. If you access the Site from outside the United States, you are responsible for complying with local law.
 
