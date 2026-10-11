@@ -25,9 +25,9 @@ How to report a security issue.
 | Name               | Date             |
 | :----------------- | :--------------- |
 | **Author**         | Ed Jenkins       |
-| **Last Reviewed**  | October 10, 2026 |
-| **Last Updated**   | October 10, 2026 |
-| **Effective Date** | October 10, 2026 |
+| **Last Reviewed**  | October 11, 2026 |
+| **Last Updated**   | October 11, 2026 |
+| **Effective Date** | October 11, 2026 |
 
 ## 1. Our Commitment
 
@@ -58,9 +58,15 @@ The following are not covered by this policy. Please do not test them, and do no
 - denial of service, resource exhaustion, and brute-force attacks of any kind, including automated scanning at a rate that degrades service;
 - social engineering, phishing, or any attack directed at Andexor's staff, contractors, or clients;
 - physical attacks on offices, equipment, or data centers;
+- attacks that need physical access to, or a man-in-the-middle position against, a visitor's device;
 - reports from automated tools without a demonstrated, specific impact;
 - missing security headers, missing best practices, or configuration observations that do not lead to a demonstrated vulnerability;
-- the presence or content of publicly published information, such as the names of staff or the software we use; and
+- email configuration findings (SPF, DKIM, DMARC) without a working demonstration;
+- known-vulnerable dependencies without a demonstration that the site is affected;
+- credentials or session data found in breach dumps, paste sites, or similar third-party leaks;
+- the presence or content of publicly published information, such as the names of staff or the software we use;
+- content spoofing or text injection that cannot change the page's HTML;
+- content quality problems such as broken links and typos, which are welcome through the Contact Us form; and
 - clickjacking, self-XSS, and other issues that require a victim to take an unlikely action against their own interests.
 
 ## 4. How to Report
@@ -77,9 +83,15 @@ To help us triage and respond quickly, please include:
 
 - a description of the vulnerability and where you found it (the URL, host, or service);
 - steps to reproduce it, with any request and response data, scripts, or screenshots that help;
+- what access or action the attacker needs, including any victim interaction;
 - the potential impact, and what an attacker could do with it;
-- the date and time of your testing, and the IP address you tested from, so we can match it to our logs; and
-- how you would like to be credited, if at all, and whether we may contact you with questions.
+- whether the issue is already public;
+- one issue per report, with the same issue on several hosts combined into one report;
+- the date and time of your testing, and the IP address you tested from, so we can match it to our logs;
+- a confirmation that no testing touched a client or third party; and
+- how you would like to be credited, if at all, the names of any collaborators who should share the credit, and whether we may contact you with questions.
+
+A proof of concept must be short and readable. AI tools may help write a report, but the reporter must have verified the finding and understand it. Obfuscated or unverified reports will be returned or closed.
 
 A suggested fix is welcome but not required.
 
@@ -94,11 +106,15 @@ When you report a security issue by following this policy, we will:
 - tell you when the fix is deployed; and
 - credit you on this page, if you want to be credited, once the issue is resolved.
 
+When two people report the same issue, the first report received is the one credited. We will say when an issue was already known to us, and the reporter is welcome to check the fix once it is deployed.
+
 We do not currently pay bounties or other rewards for security reports. We will say so plainly if that changes.
 
 ## 7. Coordinated Disclosure
 
 We ask that you give us 90 days from the date of your report before you discuss the issue publicly, so that we can fix it and tell anyone affected. If we need more time, we will tell you why and agree on a new date with you. If we fix the issue sooner, you may publish once we have told you the fix is deployed. We will not ask you to withhold a report indefinitely.
+
+We ask for coordination even when we decide a report is not a vulnerability, and we welcome a draft of any write-up before it is published.
 
 If we do not respond to your report within the times in Section 6 and you cannot reach us after a reasonable second attempt, you may disclose the issue after the 90 days have passed. Please tell us first.
 
@@ -108,9 +124,14 @@ To stay within this policy, you must:
 
 - act in good faith, with the goal of helping us protect our systems and the people who use them;
 - test only systems in scope, and stop as soon as you have enough evidence to demonstrate the issue;
+- limit automated scanners to hosts in scope and to a rate that does not degrade service;
 - not access, modify, delete, or save data that does not belong to you. If you encounter personal information, client data, or credentials, stop, do not copy or keep them, and tell us in your report;
+- not log in with any credential of ours that you find, and tell us where you found it;
+- delete any data from our systems that you still hold once your report is submitted;
 - not disrupt or degrade our services, and not use denial of service, spam, or attacks on availability;
 - not use a vulnerability to gain further access, move to other systems, or install anything persistent;
+- not upload or send malicious files or code;
+- not impersonate Andexor toward anyone;
 - not extort, threaten, or demand payment from us or our clients in exchange for a report or for not publishing;
 - not test from infrastructure you are not authorized to use; and
 - give us the time in Section 7 before publishing.
@@ -129,7 +150,7 @@ Email: security@andexor.net
 
 Phone: 855-ANDEXOR
 
-For questions about this policy that are not themselves security reports, you may also use legal@andexor.net.
+For questions about this policy that are not themselves security reports, you may also use legal@andexor.net. If you believe we have not kept to this policy, please write to legal@andexor.net so the matter is looked at by someone other than the person handling the report.
 
 | Mailing Address             |
 | :-------------------------- |
