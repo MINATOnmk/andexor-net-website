@@ -41,7 +41,7 @@ Andexor Network, Inc. ("Andexor," "we," "us," or "our") takes the security of it
 This policy applies to:
 
 - the website at andexor.net and every page under that address
-- the machine-readable files we publish, such as /.well-known/security.txt
+- the machine-readable files we publish, such as [https://andexor.net/.well-known/security.txt](https://andexor.net/.well-known/security.txt)
 - email addresses at andexor.net
 - websites, applications, and other systems that Andexor hosts or operates for its clients, where Andexor controls the infrastructure
 
@@ -129,13 +129,13 @@ Phone: 855-ANDEXOR
 
 For questions about this policy that are not themselves security reports, you may also use legal@andexor.net.
 
-| Mailing Address         |
-| :---------------------- |
-| Andexor Network, Inc.   |
-| ATTN: Ed Jenkins        |
-| 860 Johnson Ferry RD NE |
-| #140-386                |
-| Atlanta, GA 30342       |
+| Mailing Address             |
+| :-------------------------- |
+| Andexor Network, Inc.       |
+| ATTN: Ed Jenkins, President |
+| 860 Johnson Ferry RD NE     |
+| #140-386                    |
+| Atlanta, GA 30342           |
 
 ## 11. Changes to This Policy
 

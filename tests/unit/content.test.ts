@@ -78,6 +78,25 @@ describe("renderMarkdown", () => {
         expect(html).toContain('rel="noopener noreferrer" target="_blank"');
         expect(html).toContain('<a href="/about">y</a>');
     });
+
+    it("wraps a list item that holds an inline element in one span, so the card grid keeps it in the text column", async () => {
+        const html = await renderMarkdown(
+            "- plain item\n- see our [policy](/security) for details\n- [site](/) and more\n- **bold** start\n- a `code` word\n",
+        );
+        expect(html).toContain("<li>plain item</li>");
+        expect(html).toContain('<li><span>see our <a href="/security">policy</a> for details</span></li>');
+        expect(html).toContain('<li><span><a href="/">site</a> and more</span></li>');
+        expect(html).toContain("<li><span><strong>bold</strong> start</span></li>");
+        expect(html).toContain("<li><span>a <code>code</code> word</span></li>");
+    });
+
+    it("leaves list items that hold a paragraph or a nested list unwrapped", async () => {
+        const loose = await renderMarkdown("- one\n\n- two [x](/)\n");
+        expect(loose).not.toContain("<span>");
+        const nested = await renderMarkdown("- outer [x](/)\n  - inner\n");
+        expect(nested).toMatch(/<li>outer <a href="\/">x<\/a>\s*<ul>/);
+        expect(nested).not.toContain("<span>");
+    });
 });
 
 describe("cards layout", () => {

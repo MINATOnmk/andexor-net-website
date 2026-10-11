@@ -18,9 +18,7 @@ Please create a modern 3D isometric icon illustration that represents a Terms Of
 
 # Terms Of Service
 
-This document governs use of this website only.
-Technical and business services are governed separately
-by the Andexor Network, Inc. Services Agreement.
+These are the terms that govern the use of this website.
 
 ## Document History
 
@@ -39,7 +37,7 @@ The Site is not directed to children under 13, and we do not knowingly collect p
 
 ## 2. The Site and Our Services
 
-The Site provides information about Andexor Network, Inc. and the services it offers. **These Terms govern use of the Site only.** No services are purchased through the Site. If you engage us, that engagement is governed by the Andexor Network, Inc. Services Agreement presented at signup, which controls over these Terms with respect to the services.
+The Site provides information about Andexor Network, Inc. and the services it offers. **These Terms govern use of the Site only.** If you engage us, that engagement is governed by the Andexor Network, Inc. Services Agreement presented at signup, which controls over these Terms with respect to the services.
 
 ## 3. Changes to These Terms
 
@@ -170,10 +168,10 @@ Email: legal@andexor.net
 
 Phone: 855-ANDEXOR
 
-| Mailing Address         |
-| :---------------------- |
-| Andexor Network, Inc.   |
-| ATTN: Ed Jenkins        |
-| 860 Johnson Ferry RD NE |
-| #140-386                |
-| Atlanta, GA 30342       |
+| Mailing Address             |
+| :-------------------------- |
+| Andexor Network, Inc.       |
+| ATTN: Ed Jenkins, President |
+| 860 Johnson Ferry RD NE     |
+| #140-386                    |
+| Atlanta, GA 30342           |
