@@ -121,6 +121,32 @@ export function listContentSlugs(dir: string = CONTENT_DIR): string[][] {
     return walk(dir).filter((slug) => !readRaw(dir, slug).draft);
 }
 
+const isElement = (n: RootContent | ElementContent | undefined): n is Element => n?.type === "element";
+
+// Card list items are a two-column grid: the round bullet, then the text (cards.css). Grid lays out each child
+// of the <li> as its own item, so an item with a link or bold text in it (text, <a>, text) becomes three items,
+// and the element drops into the bullet column with the trailing text beside it. Wrapping the item's content in
+// one <span> makes it one grid item again. Items that are plain text are a single node and need nothing, and an
+// item holding a block (a loose list's <p>, or a nested list) is left alone: a <span> cannot hold a block.
+const BLOCK_IN_LIST_ITEM = new Set(["p", "ul", "ol", "blockquote", "pre", "table", "div", "hr"]);
+
+function rehypeWrapMarkedListItems() {
+    const wrap = (node: Element | Root): void => {
+        for (const child of node.children) {
+            if (!isElement(child)) continue;
+            const elements = child.children.filter(isElement);
+            if (
+                child.tagName === "li" &&
+                elements.length > 0 &&
+                !elements.some((e) => BLOCK_IN_LIST_ITEM.has(e.tagName))
+            ) {
+                child.children = [{ type: "element", tagName: "span", properties: {}, children: child.children }];
+            } else wrap(child);
+        }
+    };
+    return (tree: Root) => wrap(tree);
+}
+
 function markdownProcessor() {
     return (
         unified()
@@ -130,6 +156,7 @@ function markdownProcessor() {
             .use(remarkRehype)
             .use(rehypeSlug)
             .use(rehypeExternalLinks, { target: "_blank", rel: ["noopener", "noreferrer"] })
+            .use(rehypeWrapMarkedListItems)
             .use(rehypeStringify)
     );
 }
@@ -137,8 +164,6 @@ function markdownProcessor() {
 export async function renderMarkdown(markdown: string): Promise<string> {
     return String(await markdownProcessor().process(markdown));
 }
-
-const isElement = (n: RootContent | ElementContent | undefined): n is Element => n?.type === "element";
 
 function textOf(n: RootContent | ElementContent): string {
     if (n.type === "text") return n.value;
