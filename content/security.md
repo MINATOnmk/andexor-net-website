@@ -18,10 +18,7 @@ Please create a modern 3D isometric icon illustration that represents a Security
 
 # Security Policy
 
-This document explains how to report a security problem with this website or a service we host, and what you can expect from us when you do.
-It covers the company's online services.
-Problems with the source code of this website are also welcome through the
-[security policy in its GitHub repository](https://github.com/andexor/andexor-net-website/security/policy).
+How to report a security issue.
 
 ## Document History
 
@@ -38,10 +35,15 @@ Andexor Network, Inc. ("Andexor," "we," "us," or "our") takes the security of it
 
 ## 2. Scope
 
+This document explains how to report a security problem with this website or a service we host, and what you can expect from us when you do.
+It covers the company's online services.
+Problems with the source code of this website are also welcome through the
+[security policy in its GitHub repository](https://github.com/andexor/andexor-net-website/security/policy).
+
 This policy applies to:
 
 - the website at andexor.net and every page under that address
-- the machine-readable files we publish, such as [https://andexor.net/.well-known/security.txt](https://andexor.net/.well-known/security.txt)
+- the machine-readable files we publish, such as [security.txt](/.well-known/security.txt)
 - email addresses at andexor.net
 - websites, applications, and other systems that Andexor hosts or operates for its clients, where Andexor controls the infrastructure
 
